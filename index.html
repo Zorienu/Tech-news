@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technews</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- font oswalds -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- boton para barra desplegable -->
+    <div class="menu_btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    <!-- clase container para centrar la barra de navegacion -->
+    <div class="container"> 
+        <!-- barra de navegacion -->
+        <nav class="nav_main">
+            <img src="img/brand.png" alt="Technews logo" class="nav_brand"> <!-- cambiar el tamaño con css -->
+            <ul class="nav_menu">
+                <li>
+                    <a href="#">Web development</a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Artificial intelligence</a>
+                </li>
+                <li>
+                    <a href="#">Machine learning</a>
+                </li>
+                <li>
+                    <a href="#">Quantum computing</a>
+                </li>
+                <li>
+                    <a href="#">Startup</a>
+                </li>
+            </ul>
+            <!-- otro ul para el icono de la derecha -->
+            <ul class="nav_menu_right">
+                <li>
+                    <!-- se descarga de una biblioteca o se crea, cdn permite a través del enlace, traerlo al codigo sin tener que descargar nada -->
+                    <a href="#">
+                        <i class="fas fa-search"></i> <!-- 'i' de icono -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr> <!-- añadir una barra horizontal debajo del menu -->
+
+        <!-- banner principal del sitio, showcase -->
+        <header class="showcase">
+            <h2>Big news</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque libero vitae dolorem hic maiores suscipit a, dolorum vero nemo dignissimos! Ea ab magni quis totam, dolorem minima est. Unde corrupti obcaecati quidem accusamus rem voluptatem dicta suscipit, nemo ducimus totam sed iste assumenda deserunt temporibus aspernatur incidunt? Et, vitae necessitatibus.</p>
+            <a href="#" class="btn">Read more <i class="fas fa-angle-double-right"></i></a> <!-- se agrega el icono de doble flecha a la derecha -->
+        </header>
+
+        <!-- news cards, se usa cssgrid, creando una grilla con 4 columnas -->
+        <div class="news_cards">
+            <!-- crear otro div que contendrá cada una de las noticias -->
+            <div>
+                <img src="img/news1.jpg" alt="news 1">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius quae dolores quis deleniti, sint ratione laborum adipisci nulla excepturi.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news2.jpg" alt="news 2">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius quae dolores quis deleniti, sint ratione laborum adipisci nulla excepturi.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news3.jpg" alt="news 3">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius quae dolores quis deleniti, sint ratione laborum adipisci nulla excepturi.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news4.jpg" alt="news 4">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius quae dolores quis deleniti, sint ratione laborum adipisci nulla excepturi.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+
+        <!-- banner no 1 -->
+        <section class="section_banner_1">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda animi nihil dolorum quo, sed obcaecati laboriosam consequatur error eum tenetur sit facere corporis nobis quae doloribus eaque quidem praesentium rem!</p>
+                <a href="#" class="btn">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+        <!-- news cards, se usa cssgrid, creando una grilla con 4 columnas -->
+        <div class="news_cards">
+            <!-- crear otro div que contendrá cada una de las noticias -->
+            <div>
+                <img src="img/news1.jpg" alt="news 1">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius quae dolores quis deleniti, sint ratione laborum adipisci nulla excepturi.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news2.jpg" alt="news 2">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius quae dolores quis deleniti, sint ratione laborum adipisci nulla excepturi.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news3.jpg" alt="news 3">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius quae dolores quis deleniti, sint ratione laborum adipisci nulla excepturi.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news4.jpg" alt="news 4">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius quae dolores quis deleniti, sint ratione laborum adipisci nulla excepturi.</p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+
+        <!-- banner no 2 -->
+        <section class="section_banner_2">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam quas, molestiae incidunt quibusdam accusamus fuga hic porro doloremque voluptatem non. </p>
+                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+        <section class="social">
+            <p>Follow TechNews</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+    </div> 
+
+    <!-- se crea el footer fuera del container para que abarque toda el ancho -->
+    <div class="footer_links">
+        <div class="footer_container">
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>title one</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">elemento 1</a>
+                </li>
+                <li>
+                    <a href="#">elemento 2</a>
+                </li>
+                <li>
+                    <a href="#">elemento 3</a>
+                </li>
+                <li>
+                    <a href="#">elemento 4</a>
+                </li>
+                <li>
+                    <a href="#">elemento 5</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>title two</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">elemento 1</a>
+                </li>
+                <li>
+                    <a href="#">elemento 2</a>
+                </li>
+                <li>
+                    <a href="#">elemento 3</a>
+                </li>
+                <li>
+                    <a href="#">elemento 4</a>
+                </li>
+                <li>
+                    <a href="#">elemento 5</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>title three</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">elemento 1</a>
+                </li>
+                <li>
+                    <a href="#">elemento 2</a>
+                </li>
+                <li>
+                    <a href="#">elemento 3</a>
+                </li>
+                <li>
+                    <a href="#">elemento 4</a>
+                </li>
+                <li>
+                    <a href="#">elemento 5</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>title four</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">elemento 1</a>
+                </li>
+                <li>
+                    <a href="#">elemento 2</a>
+                </li>
+                <li>
+                    <a href="#">elemento 3</a>
+                </li>
+                <li>
+                    <a href="#">elemento 4</a>
+                </li>
+                <li>
+                    <a href="#">elemento 5</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <h3>TechNews copyright</h3>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- añadiendo el script -->
+    <script src="main.js"></script>
+</body>
+</html>
